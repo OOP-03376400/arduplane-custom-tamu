@@ -1,0 +1,32 @@
+2020-03-07 03:56:32,840 DEBUG ArdupilotMega.Utilities.ThemeManager - Theme set to None (F:\00Embedded\repositories\EmbeddedSystemClass\arduplane-custom-tamu\Tools\ArdupilotMegaPlanner\3DRRadio\ThemeManager.cs:40) [1]
+2020-03-07 03:56:38,771 DEBUG ArdupilotMega.Utilities.ThemeManager - Theme set to None (F:\00Embedded\repositories\EmbeddedSystemClass\arduplane-custom-tamu\Tools\ArdupilotMegaPlanner\3DRRadio\ThemeManager.cs:40) [1]
+2020-03-07 03:56:43,739 DEBUG ArdupilotMega.Utilities.ThemeManager - Theme set to None (F:\00Embedded\repositories\EmbeddedSystemClass\arduplane-custom-tamu\Tools\ArdupilotMegaPlanner\3DRRadio\ThemeManager.cs:40) [1]
+2020-03-07 03:56:54,289 DEBUG ArdupilotMega.Utilities.ThemeManager - Theme set to None (F:\00Embedded\repositories\EmbeddedSystemClass\arduplane-custom-tamu\Tools\ArdupilotMegaPlanner\3DRRadio\ThemeManager.cs:40) [1]
+2020-03-07 03:57:08,924 DEBUG ArdupilotMega.Utilities.ThemeManager - Theme set to None (F:\00Embedded\repositories\EmbeddedSystemClass\arduplane-custom-tamu\Tools\ArdupilotMegaPlanner\3DRRadio\ThemeManager.cs:40) [1]
+2020-03-07 03:57:32,767 DEBUG ArdupilotMega.Utilities.ThemeManager - Theme set to None (F:\00Embedded\repositories\EmbeddedSystemClass\arduplane-custom-tamu\Tools\ArdupilotMegaPlanner\3DRRadio\ThemeManager.cs:40) [1]
+2020-03-07 03:57:37,611 DEBUG ArdupilotMega.Utilities.ThemeManager - Theme set to None (F:\00Embedded\repositories\EmbeddedSystemClass\arduplane-custom-tamu\Tools\ArdupilotMegaPlanner\3DRRadio\ThemeManager.cs:40) [1]
+2020-03-07 03:57:39,008 DEBUG ArdupilotMega.Utilities.ThemeManager - Theme set to None (F:\00Embedded\repositories\EmbeddedSystemClass\arduplane-custom-tamu\Tools\ArdupilotMegaPlanner\3DRRadio\ThemeManager.cs:40) [1]
+2020-03-07 03:57:44,527  INFO ArdupilotMega._3DRradio - Connect btr 11 baud 115200 (F:\00Embedded\repositories\EmbeddedSystemClass\arduplane-custom-tamu\Tools\ArdupilotMegaPlanner\Radio\3DRradio.cs:672) [1]
+2020-03-07 03:57:44,534  INFO ArdupilotMega._3DRradio - Connect first responce LPC: 
++++ 11 (F:\00Embedded\repositories\EmbeddedSystemClass\arduplane-custom-tamu\Tools\ArdupilotMegaPlanner\Radio\3DRradio.cs:674) [1]
+2020-03-07 03:57:44,637  INFO ArdupilotMega._3DRradio - Doing Command AT&T (F:\00Embedded\repositories\EmbeddedSystemClass\arduplane-custom-tamu\Tools\ArdupilotMegaPlanner\Radio\3DRradio.cs:620) [1]
+2020-03-07 03:57:44,656  INFO ArdupilotMega._3DRradio - cmd AT&T echo AT&TCommand Invalid.  Try 'help' command
+ (F:\00Embedded\repositories\EmbeddedSystemClass\arduplane-custom-tamu\Tools\ArdupilotMegaPlanner\Radio\3DRradio.cs:630) [1]
+2020-03-07 03:57:45,209  INFO ArdupilotMega._3DRradio - responce 0 LPC: 
+
+ (F:\00Embedded\repositories\EmbeddedSystemClass\arduplane-custom-tamu\Tools\ArdupilotMegaPlanner\Radio\3DRradio.cs:650) [1]
+2020-03-07 03:57:45,312  INFO ArdupilotMega._3DRradio - Doing Command ATI (F:\00Embedded\repositories\EmbeddedSystemClass\arduplane-custom-tamu\Tools\ArdupilotMegaPlanner\Radio\3DRradio.cs:620) [1]
+2020-03-07 03:57:45,325  INFO ArdupilotMega._3DRradio - cmd ATI echo ATICommand Invalid.  Try 'help' command
+ (F:\00Embedded\repositories\EmbeddedSystemClass\arduplane-custom-tamu\Tools\ArdupilotMegaPlanner\Radio\3DRradio.cs:630) [1]
+2020-03-07 03:57:45,881  INFO ArdupilotMega._3DRradio - responce 0 LPC: 
+
+ (F:\00Embedded\repositories\EmbeddedSystemClass\arduplane-custom-tamu\Tools\ArdupilotMegaPlanner\Radio\3DRradio.cs:650) [1]
+2020-03-07 03:57:45,881  INFO ArdupilotMega._3DRradio - Connect Version: LPC:
+ (F:\00Embedded\repositories\EmbeddedSystemClass\arduplane-custom-tamu\Tools\ArdupilotMegaPlanner\Radio\3DRradio.cs:691) [1]
+2020-03-07 03:57:45,985  INFO ArdupilotMega._3DRradio - Doing Command ATO (F:\00Embedded\repositories\EmbeddedSystemClass\arduplane-custom-tamu\Tools\ArdupilotMegaPlanner\Radio\3DRradio.cs:620) [1]
+2020-03-07 03:57:45,993  INFO ArdupilotMega._3DRradio - cmd ATO echo ATOCommand Invalid.  Try 'help' command
+ (F:\00Embedded\repositories\EmbeddedSystemClass\arduplane-custom-tamu\Tools\ArdupilotMegaPlanner\Radio\3DRradio.cs:630) [1]
+2020-03-07 03:57:46,548  INFO ArdupilotMega._3DRradio - responce 0 LPC: 
+
+ (F:\00Embedded\repositories\EmbeddedSystemClass\arduplane-custom-tamu\Tools\ArdupilotMegaPlanner\Radio\3DRradio.cs:650) [1]
+2020-03-07 03:57:54,222 DEBUG ArdupilotMega.Utilities.ThemeManager - Theme set to None (F:\00Embedded\repositories\EmbeddedSystemClass\arduplane-custom-tamu\Tools\ArdupilotMegaPlanner\3DRRadio\ThemeManager.cs:40) [1]

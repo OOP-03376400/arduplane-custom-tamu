@@ -1,0 +1,50 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\00Embedded\\repositories\\EmbeddedSystemClass\\arduplane-custom-tamu\\Tools\\ArdupilotMegaPlanner\\3DRRadio\\3DRRadio.csproj": {}
+  },
+  "projects": {
+    "F:\\00Embedded\\repositories\\EmbeddedSystemClass\\arduplane-custom-tamu\\Tools\\ArdupilotMegaPlanner\\3DRRadio\\3DRRadio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\00Embedded\\repositories\\EmbeddedSystemClass\\arduplane-custom-tamu\\Tools\\ArdupilotMegaPlanner\\3DRRadio\\3DRRadio.csproj",
+        "projectName": "3DRRadio",
+        "projectPath": "F:\\00Embedded\\repositories\\EmbeddedSystemClass\\arduplane-custom-tamu\\Tools\\ArdupilotMegaPlanner\\3DRRadio\\3DRRadio.csproj",
+        "packagesPath": "C:\\Users\\koson\\.nuget\\packages\\",
+        "outputPath": "F:\\00Embedded\\repositories\\EmbeddedSystemClass\\arduplane-custom-tamu\\Tools\\ArdupilotMegaPlanner\\3DRRadio\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\koson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net35"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net35": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net35": {}
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

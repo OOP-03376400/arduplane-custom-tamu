@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Config>
+  <comport>COM25</comport>
+  <baudrate>115200</baudrate>
+  <APMFirmware>ArduPlane</APMFirmware>
+  <TXT_DefaultAlt>100</TXT_DefaultAlt>
+  <Tuning_Graph_Selected>roll|pitch|nav_roll|nav_pitch|</Tuning_Graph_Selected>
+  <MainWidth>1618</MainWidth>
+  <Tracker_CMB_baudrate>115200</Tracker_CMB_baudrate>
+  <Tracker_CMB_interface>Maestro</Tracker_CMB_interface>
+  <Tracker_TRK_tilttrim>0</Tracker_TRK_tilttrim>
+  <TXT_loiterrad>45</TXT_loiterrad>
+  <FlightSplitter>417</FlightSplitter>
+  <TXT_homealt />
+  <Tracker_CHK_revtilt>False</Tracker_CHK_revtilt>
+  <Tracker_TXT_pwmrangepan>1000</Tracker_TXT_pwmrangepan>
+  <TXT_homelat />
+  <TXT_homelng />
+  <CHK_altmode>False</CHK_altmode>
+  <Tracker_TXT_panrange>360</Tracker_TXT_panrange>
+  <TXT_WPRad>30</TXT_WPRad>
+  <NUM_tracklength>200</NUM_tracklength>
+  <Tracker_CMB_serialport>COM25</Tracker_CMB_serialport>
+  <MainLocX>114</MainLocX>
+  <Tracker_TRK_pantrim>0</Tracker_TRK_pantrim>
+  <MainLocY>-1018</MainLocY>
+  <MainHeight>941</MainHeight>
+  <MainMaximised>Normal</MainMaximised>
+  <Tracker_TXT_tiltrange>90</Tracker_TXT_tiltrange>
+  <Tracker_CHK_revpan>False</Tracker_CHK_revpan>
+  <Tracker_TXT_pwmrangetilt>1000</Tracker_TXT_pwmrangetilt>
+</Config>
