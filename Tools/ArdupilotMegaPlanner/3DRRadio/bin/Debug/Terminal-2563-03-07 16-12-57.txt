@@ -1,0 +1,40 @@
+
+
+
+
+LPC: 
+Time:> 3/7/2020, 16:13:00
+
+---------HTTP SEND STARTED---------
+host:deo.vocmontmt.com, page:/api/deo-status/05
+
+
++CHTTPACT: REQUEST --  result = 1
+
+
+CHTTPACT: result = 1
+---------HTTP SEND COMPLETED---------
+SYSTEM:> HTTP action time taken = 5.605 sec
+--------- JSON String---------
+[{"ID":"BP05-A","D":"070320","T":"16.13","PUMP":"OFF","S1":"001","V1":761,"S2":"038","V2":63,"S3":"051","V3":824,"WS":0,"WD":296}]
+JSON string PUMP = OFF
+No	Station	Pump	v1	v2	v3	s1	s2	s3	WS	WD
+0	BP05-A	OFF	761	638	824	1	38	51	0.00	296	070320	16.13
+display_string = deo 0 BP05-A 0 761 638 824 1 38 51 0.00 296 070320 16.13
+
+1	---	OFF	0	0	0	0	0	0	0.00	0	010120	00.00
+display_string = deo 1 --- 0 0 0 0 0 0 0 0.00 0 010120 00.00
+
+2	---	OFF	0	0	0	0	0	0	0.00	0	010120	00.00
+display_string = deo 2 --- 0 0 0 0 0 0 0 0.00 0 010120 00.00
+
+3	---	OFF	0	0	0	0	0	0	0.00	0	010120	00.00
+display_string = deo 3 --- 0 0 0 0 0 0 0 0.00 0 010120 00.00
+
+4	---	OFF	0	0	0	0	0	0	0.00	0	010120	00.00
+display_string = deo 4 --- 0 0 0 0 0 0 0 0.00 0 010120 00.00
+
+Read Alarm data completed...
+SIM:> Send = 769, Restart = 0, Total = 769
+SYSTEM:> reset WDT
+SYSTEM:> HTTP action total time = 8.507 sec

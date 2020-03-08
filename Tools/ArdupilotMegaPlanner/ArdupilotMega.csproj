@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
@@ -10,11 +10,13 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ArdupilotMega</RootNamespace>
     <AssemblyName>ArdupilotMegaPlanner</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
     <PublishUrl>publish/</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -35,8 +37,6 @@
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -54,6 +54,8 @@
     <NoStdLib>false</NoStdLib>
     <UseVSHostingProcess>true</UseVSHostingProcess>
     <FileAlignment>512</FileAlignment>
+    <Prefer32Bit>false</Prefer32Bit>
+    <CodeAnalysisRuleSet>ExtendedCorrectnessRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -71,6 +73,7 @@
     <NoStdLib>false</NoStdLib>
     <UseVSHostingProcess>true</UseVSHostingProcess>
     <FileAlignment>512</FileAlignment>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Mavlink10)'=='true'">
     <DefineConstants>$(DefineConstants);MAVLINK10</DefineConstants>
@@ -125,26 +128,6 @@
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
-      <SpecificVersion>False</SpecificVersion>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.DirectX.DirectInput, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
-      <SpecificVersion>False</SpecificVersion>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.Dynamic">
-    </Reference>
-    <Reference Include="Microsoft.Scripting, Version=1.1.0.20, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-    </Reference>
-    <Reference Include="Microsoft.Scripting.Core">
-    </Reference>
-    <Reference Include="Microsoft.Scripting.Debugging">
-    </Reference>
-    <Reference Include="Microsoft.Scripting.ExtensionAttribute, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-    </Reference>
     <Reference Include="netDxf, Version=0.1.2.0, Culture=neutral, PublicKeyToken=1c75adeaa4c98f42, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Lib\netDxf.dll</HintPath>
@@ -152,12 +135,6 @@
     <Reference Include="OpenTK, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Lib\OpenTK.dll</HintPath>
-    </Reference>
-    <Reference Include="OpenTK.GLControl, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-    </Reference>
-    <Reference Include="SharpKml, Version=1.1.0.0, Culture=neutral, PublicKeyToken=e608cd7d975805ad, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="System">
       <Private>False</Private>
@@ -174,16 +151,13 @@
     <Reference Include="System.Management">
       <Private>False</Private>
     </Reference>
-    <Reference Include="System.Reactive, Version=1.0.10621.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Lib\System.Reactive.dll</HintPath>
-    </Reference>
     <Reference Include="System.Speech">
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web">
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Windows.Forms">
       <Private>False</Private>
     </Reference>
@@ -1211,6 +1185,9 @@
     <PackageReference Include="BSE.Windows.Forms">
       <Version>1.0.0</Version>
     </PackageReference>
+    <PackageReference Include="Com">
+      <Version>1.1.0</Version>
+    </PackageReference>
     <PackageReference Include="DirectShowLib">
       <Version>1.0.0</Version>
     </PackageReference>
@@ -1219,6 +1196,9 @@
     </PackageReference>
     <PackageReference Include="ICSharpCode.SharpZipLib.dll">
       <Version>0.85.4.369</Version>
+    </PackageReference>
+    <PackageReference Include="IronPython">
+      <Version>2.7.10-candidate1</Version>
     </PackageReference>
     <PackageReference Include="log4net">
       <Version>2.0.8</Version>
@@ -1229,6 +1209,12 @@
     <PackageReference Include="ProgressBar">
       <Version>1.0.10</Version>
     </PackageReference>
+    <PackageReference Include="runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform">
+      <Version>6.2.9</Version>
+    </PackageReference>
+    <PackageReference Include="SharpKml.Core">
+      <Version>5.1.1</Version>
+    </PackageReference>
     <PackageReference Include="System.Data.SQLite">
       <Version>1.0.112</Version>
     </PackageReference>
@@ -1238,9 +1224,44 @@
     <PackageReference Include="System.Data.SQLite.Linq">
       <Version>1.0.112</Version>
     </PackageReference>
+    <PackageReference Include="System.Reactive">
+      <Version>4.3.2</Version>
+    </PackageReference>
     <PackageReference Include="ZedGraph">
       <Version>6.0.0-alpha0001</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="DXTMSFTLib">
+      <Guid>{5E77EB03-937C-11D1-B047-00AA003B6061}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="DXTRANSLib">
+      <Guid>{54314D1D-35FE-11D1-81A1-0000F87557DB}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
